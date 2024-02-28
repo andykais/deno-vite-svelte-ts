@@ -1,14 +1,8 @@
-# Svelte + TS + Vite
+# Grove
 
+A collection of local media tooling
 
-## Usage
-```bash
-deno task dev
-```
-
-## Routing
-Routes are behind a hash symbol. They look like this:
-```
-/#/
-/#/user/bob
-```
+## TOC
+- [forager](#TODO) a tag based media database
+- [ffmpeg-templates](#TODO) video editing build system
+- [grob](#TODO) web scraping media framework

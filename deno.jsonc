@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "develop:studio": "deno task --cwd=services/studio develop",
+    "develop:web": "deno task --cwd=services/web develop",
+  },
+  "fmt": {
+    "singleQuote": true,
+    "semiColons": false,
+  }
+}
