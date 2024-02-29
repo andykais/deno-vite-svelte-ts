@@ -1,5 +1,5 @@
 {
-  "name": "deno-vite-svelte-ts",
+  "name": "grob-web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -19,6 +19,8 @@
     "vite": "^5.1.4",
     "svelte-spa-router": "^4.0.1",
     "unocss": "^0.58.5",
-    "@unocss/preset-wind": "^0.58.5"
+    "@unocss/preset-wind": "^0.58.5",
+
+    "ts-rpc": "file://../../dependencies/ts-rpc-1.0.0.tgz"
   }
 }

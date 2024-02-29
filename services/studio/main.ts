@@ -1,4 +1,5 @@
 import { Application } from 'oak'
+import * as rpc from 'ts-rpc/server.ts'
 
 const app = new Application()
 

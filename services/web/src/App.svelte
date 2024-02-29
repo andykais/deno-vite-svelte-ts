@@ -3,6 +3,10 @@
   import Home from './routes/index.svelte'
   import Tags from './routes/tags.svelte'
 
+  import * as rpc from '../../../../ts-rpc/src/client.ts'
+  const client = new rpc.createRPCClient('/')
+  console.log({client})
+
   const routes = {
     '/': Home,
     '/tags': Tags,

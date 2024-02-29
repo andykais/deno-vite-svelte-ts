@@ -3,7 +3,8 @@
     "develop": "deno run --watch --check --allow-net=0.0.0.0:8000 ./main.ts"
   },
   "imports": {
-    "oak": "https://deno.land/x/oak/mod.ts"
+    "oak": "https://deno.land/x/oak/mod.ts",
+    "ts-rpc/": "../../dependencies/ts-rpc/",
   },
   "fmt": {
     "singleQuote": true,
